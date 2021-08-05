@@ -1,0 +1,304 @@
+
+@import '../funciones/extends';
+@import '../funciones/list';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+html {
+    font-size: 25px ;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+body {
+    line-height: 1.55;
+    width: 100%;
+    margin: 0px auto;
+    font-family: 'Barlow', sans-serif;
+    background:        
+        url('../images/fondo-segurt.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    section a {
+        text-decoration: none;
+        color: white  
+    }
+
+    section a:hover {
+        color:white;
+        font-weight: nth($font-weight, 3);
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white  
+    }
+
+    footer a:hover {
+        color:white;
+        font-weight: nth($font-weight, 3);
+    }
+
+    a {
+        text-decoration: none;
+    }
+    /*SECCIONES*/
+
+
+.seccion {
+    @extend %flexbox-row;
+}
+
+
+.bg-gris {
+    background-color: #D8D8D8;
+}
+
+.servicios {
+    position: relative;
+    height: 45vw;
+    background-image: url('../images/Mask-Group-3.png');
+    background-position: right;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.seccion-perseg {
+    @extend %flexbox-row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 100px;
+}
+
+.text-container-seguridad {
+    padding: 4% 15% 1% 10%;
+    height: 25vw;
+    align-items: center;
+    margin: auto;
+}
+
+.seccion-area {
+    @extend %flexbox-row;
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        
+        url('../images/fondo-areas-segurt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    padding: 5% 10% 5% 10%;
+    height: 25vw;
+    align-items: center;
+    margin: auto;
+}
+
+.carousel-area {
+    @extend %flexbox-row;
+    background-color: rgb(255, 255, 255, 80%);
+    padding: 2vw;
+    height: 20vw;
+    width: 45vw;
+}
+
+.seccion-seguridad {
+    @extend %flexbox-row;
+    height: 35vw;
+    margin-top: 10vw;
+}
+
+.seccion-rrhh {
+    @extend %flexbox-row;
+    height: 35vw;
+    margin-top: 10vw;
+}
+
+.seccion-consejos {
+    @extend %flexbox-row;
+    height: 35vw;
+    margin-top: 5vw;
+}
+
+.consejos-boton {
+    text-decoration: none;
+    color: white;
+}
+
+/*IMAGENES*/
+
+.img-g {
+    width: 100%;
+}
+
+.img-p-container {
+    width: 50%;
+}
+
+.img-p {
+    width: 100%;
+}
+
+.img-portada {
+ width: 100%;
+}
+
+.img-c {
+    width: 100%;
+}
+
+.img-container {
+    width: 47%;
+}
+
+
+
+
+/*TEXTOS*/
+.text-container {
+    padding: 0% 5% 3% 3%;
+}
+
+.negrita {
+    font-weight: nth($font-weight, 4);
+}
+
+.parrafo {
+    font-size: 1vw;
+    font-weight: nth($font-weight, 1);
+}
+
+.subtitulo {
+    font-size: 2vw;
+    font-weight: nth($font-weight, 3);
+}
+
+
+.text-container-rojo {
+    width: 70vw;
+    height: 15vw;
+    background-color: nth($color, 1);
+    color: white;
+    padding: 1% 2% 1% 3%;
+}
+
+.recuadro-rojo {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+.text-per-seg {
+    color: nth($color, 1);
+    font-weight: nth($font-weight, 3);
+    font-size: 0.5rem;  
+}
+
+.text-area-segurt {
+    font-size: 1.2vw;
+    font-weight: nth($font-weight, 1);
+    color: white;
+}
+
+
+.seguridad-container {
+    padding: 2vw;
+    height: 20vw;
+    width: 53%;
+    background-color: nth($color , 1);
+    color: white;
+}
+
+.pad-seg-virt-sub {
+    padding: 2vw 2vw 2vw 6vw;
+}
+
+.pad-seg-virt-par {
+    padding: 0vw 11vw 0vw 6vw;
+}
+
+.rrhh-container {
+    padding: 0.8vw;
+    height: 20vw;
+    width: 53%;
+}
+
+.consejos-container {
+    padding: 2vw;
+    height: 20vw;
+    width: 53%;
+    
+}
+
+.ver-consejos {
+    margin:auto;
+    text-align: center;
+    padding-top: 0.1vw;
+    
+}
+
+.consejo-text {
+    color: white;
+}
+
+.ver-consejos-seccion {
+    position: relative;
+    bottom: 9vw;
+    left: 5vw;
+
+}
+
+.ver-consejos-container {
+    background-color: nth($color , 1);
+    color: white;
+    font-size: 0.8vw;
+    font-weight: nth($font-weight, 4);
+    padding: 0.2vw;
+    height: 2vw;
+    width: 8vw;
+    margin: 0vw 0vw 0vw 15vw;
+    
+}
+
+
+/* ADJUNTAR CV BOTON */
+
+.input-container {
+    padding: 0vw 0vw 0vw 5.5vw;
+}
+.input {
+    height: 2vw;
+    width: 20vw;
+    font-size: 0.8vw;
+    padding: 0vw 0vw 0vw 1vw;
+}
+
+.cv-boton {
+    background-color: nth($color , 1);
+    color: white;
+    font-size: 0.8vw;
+    font-weight: nth($font-weight, 4);
+    padding: 0.2vw;
+    height: 2vw;
+    width: 8vw;
+}
+}
+
+
+
+
+
+

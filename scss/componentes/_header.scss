@@ -1,0 +1,53 @@
+
+@import '../funciones/extends';
+@import '../funciones/list';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+ 
+/*HEADER */
+header {
+    @extend %flexbox-row;
+}
+
+.fondo-header {
+    position: absolute;
+    z-index: 50;
+    top: 0px;
+    width: 100vw;
+}
+
+.titulo-portada {
+    width: 35vw;
+
+}
+
+.titulo-portada-container {
+    padding: 0px 0 0 200px;
+    z-index: 100;
+    position: absolute;
+    top: 20vw;
+}
+
+.logo-container {
+    z-index: 100;
+padding: 10px 0 0 100px;
+}
+
+.logo-img {
+    height: 66px;
+    width: 207px;
+}
+
+.portada {
+    @extend %flexbox-row;
+    text-align: right;
+
+}
+
+.img-portada {
+    width: 100%;
+   }
+   
+

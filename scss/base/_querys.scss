@@ -1,0 +1,562 @@
+/*MOBILE QUERY*/
+
+@media only screen and (min-width: 601px) {
+
+    .none-desktop {
+        display: none !important;
+    }
+ }
+
+
+ @media only screen and (min-width: 100px) and  (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .none-mobile {
+        display: none !important;
+    }
+
+    body {
+   
+    .seccion {
+        display: flex;
+        flex-direction: column;
+    }
+    .portada {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-img {
+        width: 40%;
+        position: absolute;
+        left: 5vw;
+        top: 2vw;
+        z-index: 500;
+    }
+
+    .logo-container {
+        z-index: 100;
+    padding: 0 0 0 5vw;
+    }
+    
+
+    .parrafo {
+        font-size: 3.5vw;
+    }
+    
+    .subtitulo {
+        font-size: 7vw;
+        margin: 1vw 0 0 0;
+    }
+
+    .servicios {
+        position: relative;
+        height: 120vw;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    
+    /*HEADER*/
+
+    .menu-boton {
+        position: absolute;
+        right: 0;
+        top: 5vw;
+        z-index: 200;
+    }
+
+    .menu-mobile {
+        position: absolute;
+        top: 0vw;
+        background-color: white;
+        width: 100vw;
+        height: 200vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    nav {
+        position: absolute;
+        top: 0vw;
+        width: 100vw;
+        z-index: 250;
+        padding: 0vw 0vw !important;
+
+    }
+
+    nav ul {
+        position:absolute ;
+        right: 0;   
+
+    }
+
+    nav ul li {
+        float: left;
+        list-style: none;
+        position: relative;
+        top: 25vw;
+        right: 5vw;
+        margin: 0vw 3vw;
+        transition: all 1s;
+        font-size: 8vw;
+        &:hover > ul {
+            display: block;
+        }
+       
+    }
+
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: white;
+        top: 0vw;
+        right: 80vw;
+    }
+
+    
+    .fondo-header {
+        width: 100%;
+        z-index: 100;
+    }
+
+    .titulo-portada {
+        width: 80vw;
+           
+    }
+    
+    .titulo-portada-container {
+        z-index: 100;
+        position: absolute;
+        top: 30vw;
+        right: 9vw;
+    }
+   
+    .img-portada {
+    width: 100%;
+    padding-top: 22vw;
+    }
+
+    .text-container-rojo {
+        width: 100%;
+        height: 60vw;
+        background-color: nth($color, 1);
+        color: white;
+        padding: 1% 2% 1% 3%;
+    }
+    
+    .recuadro-rojo {
+        position: absolute;
+        top:85vw;
+        left: 5%;
+    }
+
+    .text-container-seguridad {
+        padding: 4% 15% 1% 10%;
+        height: 110vw;
+        align-items: center;
+        margin: auto;
+    }
+
+    .seg-pres-seccion {
+        margin-top: 30vw;
+    }
+
+    .seccion-perseg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .img-per-seg {
+        width: 40vw;
+    }
+
+    /* AREA SEGURT */
+    .seccion-area {
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: space-evenly;
+        padding: 8% 5% 5% 5%;
+        height: 180vw;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .carousel-area {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255, 80%);
+        padding: 2vw;
+        height: 90%;
+        width: 90vw;
+    }
+
+    .text-area-segurt {
+        font-size: 3.8vw;
+        font-weight: nth($font-weight, 1);
+        color: white;
+    }
+
+    .subtitulo-area {
+        font-size: 7vw;
+        font-weight: nth($font-weight, 3);
+        color: white;
+    }
+    
+    .subtitulo-area-2 {
+        font-size: 7vw;
+        font-weight: nth($font-weight, 4);
+        color: nth($color, 1);
+    }
+    
+    .parrafo-area {
+        font-size: 3.5vw;
+        font-weight: nth($font-weight, 2);
+        margin-top: 10vw;
+        padding: 4vw;
+    }
+
+    /*SEGURIDAD VIRTUAL*/
+    .seccion-seguridad {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 35vw;
+        margin-top: 110vw;
+    }
+
+    .seguridad-container {
+        padding: 2vw;
+        height: 70vw;
+        position: relative;
+        top: 0vw;
+        width: 90%;
+        background-color: nth($color , 1);
+        color: white;
+    }
+    
+    .pad-seg-virt-sub {
+        padding: 2vw 2vw 2vw 6vw;
+    }
+    
+    .pad-seg-virt-par {
+        padding: 0vw 11vw 0vw 6vw;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+
+    /*RRHH*/
+
+    .seccion-rrhh {
+        display: flex;
+        flex-direction: column;
+        height: 70vw;
+        margin-top: 3vw;
+    }
+    
+.rrhh-container {
+    padding: 0.8vw;
+    height: 85vw;
+    width: 90vw;
+}
+
+  /* ADJUNTAR CV BOTON */
+
+  .input-container {
+    padding: 0vw 0vw 0vw 5.5vw;
+    position: relative;
+    bottom: 12vw;
+}
+.input {
+    height: 10vw;
+    width: 85vw;
+    font-size: 4vw;
+    padding: 0vw 0vw 0vw 1vw;
+    margin: 0vw auto 2vw auto;
+    position: relative;
+    right: 4vw;
+}
+
+.cv-boton {
+    margin: 0 auto;    
+    font-size: 5vw;
+    font-weight: nth($font-weight, 3);
+    padding: 0.2vw;
+    height: 10vw;
+    width: 85vw;
+    position: relative;
+    right: 4vw;
+}
+/*CONSEJOS*/
+
+.seccion-consejos {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 150vw;
+    margin: 80vw 0 0 0;
+}
+
+.consejos-container {
+    padding: 0.2vw;
+    margin-bottom: 25vw;
+    height: 20vw;
+    width: 95vw;
+}
+.ver-consejos {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1vw;
+
+}
+
+.ver-consejos-container {
+    color: white;
+    font-size: 2vw;
+    height: 10vw;
+    width: 85vw;
+    position: relative;
+    right: 12vw;
+}
+
+div div p a {
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;
+    font-weight: nth($font-weight, 3);
+}
+
+.ver-consejos-seccion {
+    margin: 10vw auto;
+    position: relative;
+    top: 2vw;
+}
+
+.consejos-boton {
+    margin: 0 auto;    
+    font-size: 5vw;
+    font-weight: nth($font-weight, 3);
+    padding: 0.2vw;
+    height: 10vw;
+    width: 85vw;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    position:static;
+    bottom: 0;
+    margin-top: 3vw;
+    height: 240vw;
+    width: 100vw;
+    color: white;
+    padding: 5vw 0vw 0vw 0vw;
+
+    .footer-info {
+        padding: 0vw 20vw 0vw 0vw;
+    }
+    .img-footer {
+        height: 7vw;
+        margin: 0 5vw 0 0;
+    }
+
+    .footer-textos {
+        font-size: 5vw;
+        letter-spacing: 0.2vw;
+        position: relative;
+        top: 2vw;
+        margin: 0vw;
+        font-weight: nth($font-weight, 4);
+
+    }
+    
+    .footer-i {
+        position: relative;
+        right: 12vw;
+        margin-top: 2vw;
+    }
+    
+    .footer-e {
+        position: relative;
+        right: 7vw;
+    }
+
+    .subtitulo-footer {
+        font-size: 6vw ;
+        font-weight: nth($font-weight, 4);
+        letter-spacing: 0.5vw;
+        margin-top: 5vw;
+    }
+
+    .footer-blocks {
+        justify-content: center;
+    }
+
+ 
+
+    .logo-img-footer {
+        height: 66px;
+        width: 207px;
+        margin-bottom: 6vw;
+    }
+
+    /*FORM*/
+
+    .form-container {
+        padding-top: 2vw;
+        width: 40%;
+
+    }
+
+    .email-footer {
+        height: 2vw;
+        font-size: 0.8vw;
+        width: 30.7vw;
+
+    }
+    .nombre-empresa {
+        height: 2vw;
+        width: 15vw;
+        font-size: 0.8vw;
+    }
+    .comentario {
+        height: 4vw;
+        width: 30.7vw;
+        font-size: 0.8vw;
+
+    }
+
+    .footer-boton {
+        font-size: 1vw;
+        font-weight: nth($font-weight, 3);
+        padding: 0.1vw;
+        height: 2vw;
+        width: 6vw;
+        margin-top: 1vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+     /*FORM*/
+
+     .form-container {
+        padding-top: 2vw;
+        width: 95vw;
+    }
+
+    .email-footer {
+        height: 10vw;
+        font-size: 3.5vw;
+        width: 95vw;
+    }
+    .nombre-empresa {
+        height: 10vw;
+        width: 95vw;
+        font-size: 3.5vw;
+
+    }
+    .comentario {
+        height: 30vw;
+        width: 95vw;
+        font-size: 3.5vw;
+    }
+
+    .footer-boton {
+        font-size: 3.5vw;
+        padding: 0.1vw;
+        height: 10vw;
+        width: 95vw;
+        margin-top: 1vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    
+  
+}
+    /*CAROUSEL*/
+
+    .img-carousel {
+        width: 70vw; 
+        position: relative;
+        top: 6vw;
+        left: 10vw;
+    }
+    
+    .img-carousel-2 {
+        width: 55vw; 
+        position: relative;
+        top: 6vw;
+        left: 17vw;
+    }
+    
+    .carousel-item {
+        width: 90vw;
+        height: 140vw;
+        background-color: rgb(255, 255, 255, 70%);
+    }
+    
+    .carousel {
+        width: 90vw;
+        height: 150vw;
+    
+    }
+    
+    .d-md-block {
+        display: flex !important;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .carousel-caption {
+    position: relative;
+    top: 1vw;
+    left: 1vw;
+    bottom: 1vw;
+    right: 0vw;
+    z-index: 300;
+    padding: 0;
+    }
+    
+    .subtitulo-area {
+        font-size: 7vw;
+        font-weight: nth($font-weight, 3);
+        color: white;
+    }
+    
+    .subtitulo-area-2 {
+        font-size: 10vw;
+        font-weight: nth($font-weight, 3);
+        color: nth($color, 1);
+        margin-top: 8vw;
+    }
+    
+    .parrafo-area {
+        font-size: 4vw;
+        font-weight: nth($font-weight, 2);
+        padding: 0 5w;
+        position: relative;
+        bottom: 12vw;
+    }
+    
+}
+}
+

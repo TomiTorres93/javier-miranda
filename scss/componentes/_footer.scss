@@ -1,0 +1,90 @@
+
+@import '../funciones/extends';
+@import '../funciones/list';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+
+
+.footer {
+    @extend %flexbox-row;
+    background-color: nth($color, 1);
+    margin-top: 3vw;
+    height: 18vw;
+    color: white;
+    padding: 0vw 0vw 4vw 8vw;
+
+    .img-footer {
+        -webkit-filter: invert(1);
+        filter: invert(1);
+        height: 1.2vw;
+        margin: 0 0.5vw 0 0;
+    }
+
+    .footer-textos {
+        font-size: 1vw;
+        font-weight: nth($font-weight, 4);
+        margin: 0 1vw;
+    }
+    
+    .footer-blocks {
+        @extend %flexbox-row;
+        font-size: 1vw;
+        font-weight: nth($font-weight, 4);
+        margin-top: 1vw;
+    }
+
+    .subtitulo-footer {
+        font-size: 1vw;
+        font-weight: nth($font-weight, 4);
+        color: white;
+        margin: 0;
+    }
+
+    .logo-img-footer {
+        height: 66px;
+        width: 207px;
+        margin-bottom: 2vw;
+    }
+
+    /*FORM*/
+
+    .form-container {
+        padding-top: 2vw;
+        width: 40%;
+    }
+
+    .email-footer {
+        height: 2vw;
+        font-size: 0.8vw;
+        width: 30.7vw;
+
+    }
+    .nombre-empresa {
+        height: 2vw;
+        width: 15vw;
+        font-size: 0.8vw;
+        margin-bottom: 0.6vw;
+    }
+    .comentario {
+        height: 4vw;
+        width: 30.7vw;
+        font-size: 0.8vw;
+  
+
+    }
+
+    .footer-boton {
+        font-size: 1vw;
+        font-weight: nth($font-weight, 3);
+        padding: 0.1vw;
+        height: 2vw;
+        width: 6vw;
+        margin-top: 1vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
