@@ -31,7 +31,7 @@ body {
         width: 100%;
 
         .img-portada {
-            width: 85%;
+            width: 75%;
             z-index: -100;
             float: right;
         }
@@ -50,21 +50,21 @@ body {
 
     .portada-titulo {
         font-family: 'Cinzel', serif; 
-        font-size: 8vw;
+        font-size: 9vw;
         color: nth($color, 1);
         position: absolute;
-        top: 31vw;
-        left: 6.5vw;
+        top: 27.5vw;
+        left: 7.5vw;
         z-index: 100;
     }
 
     .portada-titulo-2 {
         font-family: 'Cinzel', serif; 
-        font-size: 8vw;
+        font-size: 9vw;
         color: nth($color, 1);
         position: absolute;
-        top: 38vw;
-        left: 3.5vw;
+        top: 36vw;
+        left: 4vw;
         z-index: 100;
     }
 
@@ -73,6 +73,39 @@ body {
         width: 33vw;
         top: 4.5vw;
         z-index: 50;
+    }
+
+    .portada-rect {
+        position: absolute;
+        width: 54.4vw;
+        height: 6.5414vw;
+        top: 37.6vw;
+        right: 0;
+        z-index: 0;
+    }
+
+    .portada-subt {
+        font-family: 'Cinzel', serif; 
+        font-size: 2.3vw;
+        position: absolute;
+        top: 38vw;
+        right: 18vw;
+        z-index: 50;
+        font-weight: 600;
+        color: white;
+    }
+
+    
+    .portada-subtext {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5vw;
+        position: absolute;
+        top: 40.5vw;
+        right: 22vw;
+        z-index: 50;
+        color: white;
+        font-weight: 100;
+        line-height: 1.1;
     }
 }
 
