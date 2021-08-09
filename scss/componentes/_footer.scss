@@ -6,3 +6,13 @@
 @import '../base/variables';
 
 
+.footer {
+    height: 15vw;
+    background-color: nth($color, 1);
+    margin-top: 5vw;
+}
+
+.footer-img {
+    width: 35vw;
+    padding: 2vw 0vw 0vw 5vw;
+}
