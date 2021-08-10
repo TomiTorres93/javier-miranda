@@ -170,7 +170,7 @@ nav ul {
  
     .nota1-recuadro {
         width: 100%;
-        height: 100vw;
+        height: 105vw;
         z-index: 100;
         background-color: nth($color, 1);
         box-shadow: unset;
@@ -255,9 +255,11 @@ nav ul {
     font-weight: 700;
     color: white;
     writing-mode: vertical-lr;
-    position: absolute;
-    margin-top: 35vw;
-    right: 78vw;
+    position: relative;
+    margin-top: 0vw;
+    right: 0vw;
+    left: 1vw;
+    width: 35vw;
     transform: rotate(-180deg);
 }
 .prensa-video-titulo2 {
@@ -267,9 +269,11 @@ nav ul {
     font-weight: 700;
     color: white;
     writing-mode: vertical-lr;
-    position: absolute;
-    margin-top: 190vw;    
-    left: 78vw;
+    position: relative;
+    margin-top: 0vw;
+    right: 0vw;
+    left: 5vw;
+    width: 35vw;
     transform: rotate(-180deg);
     z-index: 100;
     
@@ -290,11 +294,12 @@ nav ul {
 }
 
 .prensa-scroll {
-    width: 90%;
+    width: 100%;
     color: white;
     position: relative;
-    left: 12vw;
+    left: 0vw;
     height: 130vw;
+    padding-right: 5vw;
 
 }
 
@@ -328,15 +333,18 @@ nav ul {
 .scroll-bar {
     z-index: 100;
     position: absolute;
-    left: 12vw;
-    height: 45vw;
+    left: 25vw;
+    height: 100vw;
+    margin-top: 30vw;
+ 
 }
 
 .scroll-bar2 {
     z-index: 100;
     position: absolute;
-    left: 87vw;
-    height: 45vw;
+    height: 100vw;
+    margin-top: 190vw;
+    left: 75vw;
 }
 
 //VIDEOS
