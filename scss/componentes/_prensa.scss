@@ -26,6 +26,7 @@
     @extend %flexbox-columna;
     width: 45%;
     margin: 5vw 1vw;
+    border-radius: 20px;
 
     background-color: nth($color, 1);
     transition: 0.5s all;
