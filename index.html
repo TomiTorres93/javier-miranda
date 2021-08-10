@@ -68,35 +68,53 @@
             <h1></h1>
         </div>
 
-        <!-- NAVBAR -->
-        <nav class="navbar col-lg-6">
+        <!-- NAVBAR /DESKTOP -->
+        <nav class="navbar col-lg-6 none-mobile">
             <ul>
-                <li> <a href=""> VIDEOS </a></li>
-                <li> <a href=""> PRENSA </a></li>
-                <li> <a href=""> BLOG </a></li>
+                <li> <a href="#"> VIDEOS </a></li>
+                <li> <a href="#"> PRENSA </a></li>
+                <li> <a href="#"> BLOG </a></li>
             </ul>
         </nav>
 
+        <!-- NAVBAR /MOBILE -->
+        <nav>
+        <img class="navbar-toggler collapsed menu-boton" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" 
+        aria-label="Toggle navigation" src="images/menu-button.png" alt="menu button">
+   
+      <ul class="collapse navbar-collapse menu-mobile" id="navbarNav">
+        
+                <li> <a href="#"> VIDEOS </a></li>
+                <li> <a href="#"> PRENSA </a></li>
+                <li> <a href="#"> BLOG </a></li>
+            </ul>
+        </nav>
+
+
+
         <!-- REDES SOCIALES -->
-        <div class="col-lg-3 cont-social">
-            <img class="img-social" src="images/facebook.png" alt="">
-            <img class="img-social" src="images/instagram.png" alt="">
-            <img class="img-social" src="images/linkedin.png" alt="">
+        <div class="col-lg-3 cont-social none-mobile">
+            <a href=""><img class="img-social" src="images/facebook.png" alt="logo facebook"></a>
+            <a href=""><img class="img-social" src="images/instagram.png" alt="logo de instagram"></a>
+            <a href=""><img class="img-social" src="images/linkedin.png" alt="logo de linkedin"></a>
         </div>
     </header>
     <!-- PORTADA -->
     <section class="portada-sec">
-        <img class="img-portada" src="images/portada-javier-miranda.png" alt="Portada Javier Miranda">
+        <img class="img-portada none-mobile" src="images/portada-javier-miranda.png" alt="Portada Javier Miranda">
+        <img class="img-portada none-desktop" src="images/javier-miranda-portada-mobile.png" alt="Portada Javier Miranda">
+
         <h2 class="portada-titulo"> JAVIER </h2>
         <h2 class="portada-titulo-2"> MIRANDA </h2>
         <img class="portada-leon" src="images/portada-leon.png" alt="">
         
         <div class="portada-texto">
         <h3 class="portada-subt">EMPRENDEDOR ARGENTINO</h3>
-        <p class="portada-subtext">Innovando permanentemente en la industria <br> &nbsp; de las pantallas de LED.</p>
-
-    </div>
-    <img class="portada-rect" src="images/portada-rect.png" alt="">
+        <p class="portada-subtext">Innovando permanentemente en la industria de las pantallas de LED.</p>
+        </div>
+    <img class="portada-rect none-mobile" src="images/portada-rect.png" alt="">
     </section>
 
     <!-- UN HOMBRE ILUMINADO -->
@@ -123,7 +141,7 @@
 
     <!-- PRENSA Y VIDEOS -->
 
-    <section class="prensa-video-container">
+    <section class="prensa-video-container col-sm-12">
         <div class="prensa-video-titulo"><p>PRENSA</p></div>
         <!-- PRENSA -->
         <div class="prensa-container col-lg-6 col-sm-12 scroll">

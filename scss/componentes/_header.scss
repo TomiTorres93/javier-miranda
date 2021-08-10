@@ -10,64 +10,13 @@ header {
     @extend %flexbox-row;
     background-color: black;
     height: 5vw;
-    z-index: 200;
-    animation: changeColor 20s infinite;
-    animation-name: changeColor;
-
-
-    @keyframes changeColor {
-
-        0% {
-            box-shadow: 0px 2px 0px #c39839;
-        }
-
-        10% {
-            box-shadow: 0px 2px 0px #352910;
-        }
-
-        20% {
-            box-shadow: 0px 2px 0px #c39839;
-        }
-
-        30% {
-            box-shadow: 0px 2px 0px #352910;
-        }
-
-        40% {
-            box-shadow: 0px 2px 0px #c39839;
-        }
-
-        50% {
-            box-shadow: 0px 2px 0px #352910;
-        }
-        
-        60% {
-            box-shadow: 0px 2px 0px #c39839;
-        }
-
-        70% {
-            box-shadow: 0px 2px 0px #352910;
-        }
-
-        80% {
-            box-shadow: 0px 2px 0px #c39839;
-        }
-
-        90% {
-            box-shadow: 0px 2px 0px #352910;
-        }
-        
-        100% {
-            box-shadow: 0px 2px 0px #c39839;
-        }
-
-
-    }
+    box-shadow: 0px 0px 50px 0px #c39839;
+    z-index: 900;
+    
     /*LOGO*/
 
     .img-logo {
         height: 5vw;
-        fill: nth($color, 1);
         padding: 1vw 0 0 6vw;
     }
 
