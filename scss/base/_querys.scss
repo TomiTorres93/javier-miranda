@@ -313,9 +313,9 @@ nav ul {
 .prensa-boton-nota-container {
     text-align: center;
     background-color: nth($color, 1);
-    width: 7vw;
-    height: 2vw;
-    margin: 0 auto;
+    width: 50vw;
+    height: 6vw;
+    margin: 0 auto 1vw;
     position: relative;
     bottom: 1vw;
 }
@@ -323,7 +323,7 @@ nav ul {
 .prensa-boton-nota {
     text-align: center;
     font-family: 'Cinzel', serif; 
-    font-size: 0.9vw;
+    font-size: 4vw;
     padding-top: 0.4vw;
     font-weight: 600;
     color: white;

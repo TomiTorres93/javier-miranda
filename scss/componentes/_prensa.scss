@@ -1,0 +1,80 @@
+
+@import '../funciones/list';
+@import '../funciones/extends';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+
+.prensa-pag-container {
+    @extend %flexbox-row;
+    justify-content: space-evenly ;
+    padding: 1vw 10vw;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.h1-prensa-pag {
+    text-align: center;
+    font-family: 'Cinzel', serif; 
+    font-size: 10vw;
+    color: nth($color, 1);
+    font-weight: 800;
+}
+
+.prensa-item {
+    @extend %flexbox-columna;
+    width: 45%;
+    margin: 5vw 1vw;
+
+    background-color: nth($color, 1);
+    transition: 0.5s all;
+        &:hover {
+        box-shadow: 15px -15px 20px rgb(195, 152, 57, 50%);
+    }
+    
+}
+
+.prensa-pag-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.prensa-pag-titulo {
+    font-family: 'Cinzel', serif; 
+    font-size: 1.7vw;
+    padding: 0 2vw;
+    color: white;
+    font-weight: 800;
+}
+
+.fecha {
+    color: black;
+    font-family: 'Cinzel', serif; 
+    font-size: 1.2vw;
+    margin-top: 1vw;
+}
+
+.boton-prensa-ver-nota {
+    font-family: 'Cinzel', serif; 
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: nth($color, 1);
+    background-color: black;
+    width: 10vw;
+    height: 3vw;
+    margin-bottom: 1vw;
+ 
+
+
+    .texto-prensa-ver-nota {
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 0.7vw;
+        transition: 0.3s all;
+        &:hover {
+            color: nth($color, 1);
+        }
+    }
+}

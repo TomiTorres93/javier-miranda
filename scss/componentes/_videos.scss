@@ -1,0 +1,23 @@
+
+@import '../funciones/list';
+@import '../funciones/extends';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+
+.videos-pag-container {
+    padding: 0 10vw;
+    text-align: center
+}
+
+.video-principal {
+    width: 80%;
+    margin: 5vw auto;
+    
+}
+
+.video-secundario {
+    width: 40%;
+    
+}
