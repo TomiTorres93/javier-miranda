@@ -215,7 +215,7 @@ body {
     .prensa-video-container {
         @extend %flexbox-row;
         margin-top: 8vw;
-        box-shadow: 0px 0px 50px 0px #c39839;
+        box-shadow: 0px 20px 50px 0px #c39839;
 
   
     }
@@ -367,7 +367,7 @@ body {
     
     .blog-nota-container2 {
         @extend %flexbox-row;
-
+        overflow: hidden;
         position: relative;
         bottom: 7vw;
     }
@@ -386,7 +386,7 @@ body {
         font-size: 3vw;
         font-weight: 700;
         padding: 0 5vw;
-
+        overflow: hidden;
 
     }
 
@@ -398,6 +398,7 @@ body {
         padding: 0 9vw 0 5vw;
         color: white;
         line-height: 2;
+        overflow: hidden;
     }
 
     .blog-boton-container {
@@ -407,7 +408,7 @@ body {
         height: 2.5vw;
         margin: 0 auto;
         position: relative;
-        top: 3vw;
+        top: 2vw;
         left: 8vw;
         overflow: hidden;
     }
@@ -438,6 +439,11 @@ body {
         padding-top: 0.4vw;
         font-weight: 600;
         color: white;
+        transition: all 0.4s;
+
+        &:hover {
+            color: black;
+        }
     }
 
 
