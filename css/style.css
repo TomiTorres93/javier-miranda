@@ -1075,7 +1075,7 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     width: 5vw;
     margin: 8vw 2vw;
   }
-  body .prensa-item {
+  body .prensa-pag-item {
     width: 100%;
     border-radius: 10px;
   }
