@@ -254,9 +254,8 @@ body {
 
     .prensa-scroll {
         margin-left: 16vw;
-        position: relative;
-        top: 34vw;
         color: white;
+        height: 55vw;
 
     }
 
@@ -316,8 +315,7 @@ body {
     
         .videos-scroll {
             margin-left: 5vw;
-            position: relative;
-            top: 13vw;
+            height: 55vw;
     
         }
     }
@@ -348,6 +346,14 @@ body {
     }
 
     .blog-nota-container {
+        @extend %flexbox-row;
+
+        position: relative;
+        bottom: 7vw;
+    }
+
+    
+    .blog-nota-container2 {
         @extend %flexbox-row;
 
         position: relative;
