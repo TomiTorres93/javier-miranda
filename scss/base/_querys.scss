@@ -21,9 +21,7 @@
 
     body {
 
-        
-
-    header {
+        header {
         height: 20vw;
 
         .img-logo {
@@ -42,7 +40,7 @@ nav {
 
 ul li {
     position: relative;
-    right: 5vw;
+    right: 8vw;
     list-style: none;
 }
 nav ul li a {
@@ -62,15 +60,17 @@ nav ul {
     display: block;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     top: 19vw;
-    left: 23.5vw;
-
+    left: 66vw;
     background-color: black;
-    z-index: 100;
+    z-index: 400;
     width: 35vw;
 }
 
+.nav2 {
+    z-index: 900;
+}
 
 
 .menu-boton {
@@ -94,7 +94,7 @@ nav ul {
         position: relative;
         left: 10vw;
         bottom: 5vw;
-        z-index: -100;        
+        z-index: -500;        
     }
 }
 
@@ -164,22 +164,24 @@ nav ul {
 
 
     .nota1-img {
-        width: 105vw;
+        width: 100vw;
     }
  
     .nota1-recuadro {
-        width: 100vw;
+        width: 100%;
         height: 100vw;
         z-index: 100;
         background-color: nth($color, 1);
         box-shadow: unset;
-    }
+        position: relative;
+        left: 0;
+   }
 
     .nota1-titulo {
         font-family: 'Cinzel', serif; 
         font-size: 10vw;;
         padding-left: 10vw;
-        padding-top: 2vw;
+        padding-top: 3vw;
         z-index: 50;
         font-weight: 700;
         color: white;
@@ -213,11 +215,10 @@ nav ul {
     .nota1-boton {
         background-color: white;
         width: 90vw;
-        height: 6vw;
+        height: 7vw;
         color: black;
         font-family: 'Cinzel', serif; 
-        font-size: 1.7vw;
-        margin: 0 auto;
+        font-size: 5vw;
         font-weight: 800;
         margin: 0 auto;
 
@@ -238,14 +239,9 @@ nav ul {
     margin-top: 8vw;
     box-shadow: 0px 0px 50px 0px #c39839;
     width: 100%;
-
-
 }
 
-.prensa-container {
-    @extend %flexbox-row;
 
-}
 
 .scroll {
     overflow: scroll;
@@ -253,14 +249,13 @@ nav ul {
 
 .prensa-video-titulo {
     font-family: 'Cinzel', serif; 
-    font-size: 8vw;
+    font-size: 17vw;
     letter-spacing: 2vw;
     font-weight: 700;
     color: white;
     writing-mode: vertical-lr;
     position: absolute;
-    left: 0;
-    right: 89.5vw;
+    right: 78vw;
     transform: rotate(-180deg);
 }
 .prensa-video-titulo2 {
@@ -270,25 +265,31 @@ nav ul {
     font-weight: 700;
     color: white;
     writing-mode: vertical-lr;
-    position: absolute;
+    position: unset;
     left: 94vw;
     transform: rotate(-180deg);
     z-index: 100;
     
 }
 
+.prensa-container {
+    height: 100vw;
+    width: 100%;
+
+}
 .prensa-item {
     margin: 1vw 0;
+
 }
 
 .prensa-img {
-    width: 25vw;
+    width: 65vw;
 }
 
 .prensa-scroll {
-    margin-left: 16vw;
-    position: relative;
-    top: 34vw;
+    margin-top: 150vw;
+    margin-left: 30vw;
+    width: 90%;
     color: white;
 
 }
@@ -336,9 +337,11 @@ nav ul {
 
 //VIDEOS
 .videos-container {
-    height: 60vw;
+    width: 100%;
+    height: 150vw;
     overflow-y: scroll;
     background-color: nth($color, 1);
+    margin-top: 10vw;
     @extend %flexbox-row;
 
 

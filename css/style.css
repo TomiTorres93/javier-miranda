@@ -75,12 +75,17 @@ body .portada-rect {
   right: 0;
   z-index: 0;
 }
+body .portada-texto {
+  position: absolute;
+  width: 50vw;
+  top: 38vw;
+  left: 50vw;
+}
 body .portada-subt {
   font-family: "Cinzel", serif;
   font-size: 2.3vw;
-  position: absolute;
-  top: 38vw;
-  right: 18vw;
+  position: relative;
+  right: 2vw;
   z-index: 50;
   font-weight: 600;
   color: white;
@@ -88,10 +93,9 @@ body .portada-subt {
 body .portada-subtext {
   font-family: "Roboto", sans-serif;
   font-size: 1.5vw;
-  position: absolute;
-  top: 40.5vw;
-  right: 22vw;
+  position: relative;
   z-index: 50;
+  bottom: 1vw;
   color: white;
   font-weight: 100;
   line-height: 1.1;
@@ -451,7 +455,7 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   }
   body ul li {
     position: relative;
-    right: 5vw;
+    right: 8vw;
     list-style: none;
   }
   body nav ul li a {
@@ -468,12 +472,15 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     display: block;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     top: 19vw;
-    left: 23.5vw;
+    left: 66vw;
     background-color: black;
-    z-index: 100;
+    z-index: 400;
     width: 35vw;
+  }
+  body .nav2 {
+    z-index: 900;
   }
   body .menu-boton {
     position: absolute;
@@ -493,7 +500,7 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     position: relative;
     left: 10vw;
     bottom: 5vw;
-    z-index: -100;
+    z-index: -500;
   }
   body .portada-titulo {
     font-size: 18vw;
@@ -548,20 +555,22 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     margin-top: 10vw;
   }
   body .nota1-container .nota1-img {
-    width: 105vw;
+    width: 100vw;
   }
   body .nota1-container .nota1-recuadro {
-    width: 100vw;
+    width: 100%;
     height: 100vw;
     z-index: 100;
     background-color: #c39839;
     box-shadow: unset;
+    position: relative;
+    left: 0;
   }
   body .nota1-container .nota1-titulo {
     font-family: "Cinzel", serif;
     font-size: 10vw;
     padding-left: 10vw;
-    padding-top: 2vw;
+    padding-top: 3vw;
     z-index: 50;
     font-weight: 700;
     color: white;
@@ -591,11 +600,10 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   body .nota1-container .nota1-boton {
     background-color: white;
     width: 90vw;
-    height: 6vw;
+    height: 7vw;
     color: black;
     font-family: "Cinzel", serif;
-    font-size: 1.7vw;
-    margin: 0 auto;
+    font-size: 5vw;
     font-weight: 800;
     margin: 0 auto;
   }
@@ -616,14 +624,13 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   }
   body .prensa-video-titulo {
     font-family: "Cinzel", serif;
-    font-size: 8vw;
+    font-size: 17vw;
     letter-spacing: 2vw;
     font-weight: 700;
     color: white;
     writing-mode: vertical-lr;
     position: absolute;
-    left: 0;
-    right: 89.5vw;
+    right: 78vw;
     transform: rotate(-180deg);
   }
   body .prensa-video-titulo2 {
@@ -633,21 +640,25 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     font-weight: 700;
     color: white;
     writing-mode: vertical-lr;
-    position: absolute;
+    position: unset;
     left: 94vw;
     transform: rotate(-180deg);
     z-index: 100;
+  }
+  body .prensa-container {
+    height: 100vw;
+    width: 100%;
   }
   body .prensa-item {
     margin: 1vw 0;
   }
   body .prensa-img {
-    width: 25vw;
+    width: 65vw;
   }
   body .prensa-scroll {
-    margin-left: 16vw;
-    position: relative;
-    top: 34vw;
+    margin-top: 150vw;
+    margin-left: 30vw;
+    width: 90%;
     color: white;
   }
   body .prensa-subt {
@@ -686,9 +697,11 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     height: 45vw;
   }
   body .videos-container {
-    height: 60vw;
+    width: 100%;
+    height: 150vw;
     overflow-y: scroll;
     background-color: #c39839;
+    margin-top: 10vw;
   }
   body .videos-container .prensa-video-item {
     width: 25vw;

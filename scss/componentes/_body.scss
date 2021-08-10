@@ -90,12 +90,17 @@ body {
         z-index: 0;
     }
 
+    .portada-texto {
+        position: absolute;
+        width: 50vw;
+        top: 38vw;
+        left: 50vw;
+    }
     .portada-subt {
         font-family: 'Cinzel', serif; 
         font-size: 2.3vw;
-        position: absolute;
-        top: 38vw;
-        right: 18vw;
+        position: relative;
+        right: 2vw;
         z-index: 50;
         font-weight: 600;
         color: white;
@@ -105,10 +110,9 @@ body {
     .portada-subtext {
         font-family: 'Roboto', sans-serif;
         font-size: 1.5vw;
-        position: absolute;
-        top: 40.5vw;
-        right: 22vw;
+        position: relative;
         z-index: 50;
+        bottom: 1vw;
         color: white;
         font-weight: 100;
         line-height: 1.1;
