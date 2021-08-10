@@ -428,6 +428,7 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   * {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden !important;
   }
 
   .none-mobile {
@@ -435,7 +436,6 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   }
 
   body {
-    overflow-x: hidden;
     /* MENU */
     /*TEXTOS*/
   }
@@ -544,62 +544,60 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     margin-top: 10vw;
   }
   body .nota1-container .nota1-img {
-    width: 100%;
+    width: 105vw;
   }
   body .nota1-container .nota1-recuadro {
-    width: 100%;
-    height: 70vw;
+    width: 100vw;
+    height: 100vw;
     z-index: 100;
     background-color: #c39839;
-    position: relative;
-    right: 5vw;
-    box-shadow: 5vw 0vw #c39839;
+    box-shadow: unset;
   }
   body .nota1-container .nota1-titulo {
     font-family: "Cinzel", serif;
-    font-size: 3.3vw;
-    padding-left: 4vw;
+    font-size: 10vw;
+    padding-left: 10vw;
     padding-top: 2vw;
     z-index: 50;
     font-weight: 700;
     color: white;
+    line-height: 0.9;
   }
   body .nota1-container .nota1-parrafo {
     font-family: "Roboto", sans-serif;
-    font-size: 1.23vw;
-    padding-left: 4vw;
-    padding-right: 3vw;
+    font-size: 4vw;
+    padding-left: 10vw;
+    padding-right: 1vw;
     z-index: 50;
     color: white;
-    font-weight: 400;
-    line-height: 2;
+    font-weight: 300;
+    line-height: 1.7;
   }
   body .nota1-container .destacado {
     font-weight: 500;
   }
   body .nota1-container .nota1-subt {
     font-family: "Cinzel", serif;
-    font-size: 1.7vw;
-    position: relative;
-    left: 28.5vw;
+    font-size: 5vw;
+    padding-left: 25vw;
     z-index: 50;
     font-weight: 700;
     color: white;
   }
   body .nota1-container .nota1-boton {
     background-color: white;
-    width: 8vw;
-    height: 3vw;
+    width: 90vw;
+    height: 6vw;
     color: black;
     font-family: "Cinzel", serif;
     font-size: 1.7vw;
     margin: 0 auto;
     font-weight: 800;
-    position: relative;
-    left: 2vw;
+    margin: 0 auto;
   }
   body .nota1-container .nota1-boton .nota1-botontext {
     text-align: center;
