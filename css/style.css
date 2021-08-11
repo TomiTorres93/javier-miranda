@@ -168,7 +168,6 @@ body .nota1-container .nota1-boton {
   background-color: white;
   width: 8vw;
   height: 3vw;
-  color: black;
   font-family: "Cinzel", serif;
   font-size: 1.7vw;
   margin: 0 auto;
@@ -178,7 +177,13 @@ body .nota1-container .nota1-boton {
 }
 body .nota1-container .nota1-boton .nota1-botontext {
   text-align: center;
-  padding-top: 0.3vw;
+  padding-top: 1vw;
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s;
+}
+body .nota1-container .nota1-boton .nota1-botontext:hover {
+  color: #c39839;
 }
 body .prensa-video-container {
   margin-top: 8vw;
@@ -1205,15 +1210,16 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   body .boton-blog-ver-nota {
     font-size: 2.2vw;
     font-weight: 800;
-    width: 30vw;
-    height: 5vw;
-    margin-bottom: 1vw;
+    width: 40vw;
+    height: 6vw;
+    margin-bottom: 4vw;
   }
   body .boton-blog-ver-nota .texto-blog-ver-nota {
     text-decoration: none;
     color: white;
     position: relative;
-    top: 0.9vw;
+    font-size: 4vw;
+    top: 0.6vw;
   }
   body .boton-blog-ver-nota .texto-blog-ver-nota:hover {
     color: #c39839;

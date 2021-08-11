@@ -191,20 +191,28 @@ body {
 
         .nota1-boton {
             overflow: hidden;
+           
             background-color: white;
             width: 8vw;
             height: 3vw;
-            color: black;
+            
             font-family: 'Cinzel', serif; 
             font-size: 1.7vw;
             margin: 0 auto;
             font-weight: 800;
             position: relative;
             left: 2vw;
-
+            
             .nota1-botontext {
                 text-align: center;
-                padding-top: 0.3vw;
+                padding-top: 1vw;
+                text-decoration: none;
+                color: black;
+                transition: all 0.4s;
+
+                &:hover {
+                    color: #c39839;
+                }
             }
         }
                 
