@@ -616,7 +616,52 @@ nav ul {
             color: nth($color, 1);
         }
     }
+
+    
 }
+//SECCION NOTAS
+.nota-index {
+    font-family: 'Cinzel', serif; 
+    font-size: 3vw;
+    font-weight: 600;
+    color: white;
+    margin-top: 3vw;
+    padding: 0 10vw;
+}
+
+ 
+.foto-nota {
+    height: 100vw;
+    width: 90vw;
+    object-fit: cover;
+}
+
+.fecha-index {
+
+    font-size: 3vw;
+    font-weight: 600;
+    padding: 0 20vw;
+    margin-top: 1vw;
+}
+
+.titulo-index {
+    font-size: 6vw;
+    font-weight: 600;
+    padding: 0 10vw;
+    margin-top: 1vw;
+}
+
+
+.fecha-parrafo {
+
+    font-size: 1vw;
+    font-weight: 200;
+    font-size: 5vw;
+
+    margin-top: 1vw;
+    padding: 0 10vw;
+}
+
 
 }
 }

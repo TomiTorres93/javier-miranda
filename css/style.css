@@ -1218,6 +1218,38 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   body .boton-blog-ver-nota .texto-blog-ver-nota:hover {
     color: #c39839;
   }
+  body .nota-index {
+    font-family: "Cinzel", serif;
+    font-size: 3vw;
+    font-weight: 600;
+    color: white;
+    margin-top: 3vw;
+    padding: 0 10vw;
+  }
+  body .foto-nota {
+    height: 100vw;
+    width: 90vw;
+    object-fit: cover;
+  }
+  body .fecha-index {
+    font-size: 3vw;
+    font-weight: 600;
+    padding: 0 20vw;
+    margin-top: 1vw;
+  }
+  body .titulo-index {
+    font-size: 6vw;
+    font-weight: 600;
+    padding: 0 10vw;
+    margin-top: 1vw;
+  }
+  body .fecha-parrafo {
+    font-size: 1vw;
+    font-weight: 200;
+    font-size: 5vw;
+    margin-top: 1vw;
+    padding: 0 10vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
