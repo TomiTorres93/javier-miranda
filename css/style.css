@@ -6,7 +6,7 @@
   flex-direction: row;
 }
 
-.blog-item, .prensa-pag-item {
+.blog-notas-container, .blog-item, .prensa-pag-item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -372,7 +372,7 @@ body .blog-boton-vermas:hover {
   flex-direction: row;
 }
 
-.blog-item, .prensa-pag-item {
+.blog-notas-container, .blog-item, .prensa-pag-item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -411,7 +411,7 @@ nav ul {
   flex-direction: row;
 }
 
-.blog-item, .prensa-pag-item {
+.blog-notas-container, .blog-item, .prensa-pag-item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -437,7 +437,7 @@ nav ul {
   flex-direction: row;
 }
 
-.blog-item, .prensa-pag-item {
+.blog-notas-container, .blog-item, .prensa-pag-item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -477,7 +477,7 @@ header .cont-social {
   flex-direction: row;
 }
 
-.blog-item, .prensa-pag-item {
+.blog-notas-container, .blog-item, .prensa-pag-item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -505,7 +505,7 @@ header .cont-social {
   flex-direction: row;
 }
 
-.blog-item, .prensa-pag-item {
+.blog-notas-container, .blog-item, .prensa-pag-item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -586,7 +586,7 @@ header .cont-social {
   flex-direction: row;
 }
 
-.blog-item, .prensa-pag-item {
+.blog-notas-container, .blog-item, .prensa-pag-item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -656,6 +656,7 @@ header .cont-social {
   color: #c39839;
 }
 
+/* LISTAS */
 /* Extends */
 body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container, .blog-pag-container {
   display: flex;
@@ -663,7 +664,68 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   flex-direction: row;
 }
 
-.prensa-pag-item, .blog-item {
+.blog-notas-container, .prensa-pag-item, .blog-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nota-index {
+  font-family: "Cinzel", serif;
+  font-size: 1vw;
+  font-weight: 600;
+  color: white;
+  margin-top: 3vw;
+}
+
+.foto-nota {
+  height: 30vw;
+  width: 60vw;
+  object-fit: cover;
+}
+
+.fecha-index {
+  font-family: "Cinzel", serif;
+  font-size: 1vw;
+  font-weight: 600;
+  color: white;
+  margin-top: 1vw;
+}
+
+.titulo-index {
+  font-family: "Cinzel", serif;
+  font-size: 2vw;
+  font-weight: 600;
+  color: white;
+  margin-top: 1vw;
+}
+
+.fecha-parrafo {
+  font-family: "Roboto", sans-serif;
+  font-size: 1vw;
+  font-weight: 200;
+  font-size: 1.5vw;
+  color: white;
+  margin-top: 1vw;
+  padding: 0 20vw;
+}
+
+.enlace {
+  text-decoration: none;
+  color: white;
+}
+.enlace:hover {
+  color: #c39839;
+}
+
+/* Extends */
+body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container, .blog-pag-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.prensa-pag-item, .blog-item, .blog-notas-container {
   display: flex;
   align-items: center;
   flex-direction: column;

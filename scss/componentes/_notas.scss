@@ -1,0 +1,62 @@
+
+@import '../funciones/list';
+@import '../funciones/extends';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+
+.nota-index {
+    font-family: 'Cinzel', serif; 
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+    margin-top: 3vw;
+}
+
+.blog-notas-container {
+    @extend %flexbox-columna;
+
+}
+
+
+.foto-nota {
+    height: 30vw;
+    width: 60vw;
+    object-fit: cover;
+}
+
+.fecha-index {
+    font-family: 'Cinzel', serif; 
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+    margin-top: 1vw;
+}
+
+.titulo-index {
+    font-family: 'Cinzel', serif; 
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+    margin-top: 1vw;
+}
+
+
+.fecha-parrafo {
+    font-family: 'Roboto', sans-serif;    font-size: 1vw;
+    font-weight: 200;
+    font-size: 1.5vw;
+    color: white;
+    margin-top: 1vw;
+    padding: 0 20vw;
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color: nth($color, 1);
+    }
+}
