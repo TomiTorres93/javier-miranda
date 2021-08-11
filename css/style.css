@@ -679,7 +679,7 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
 }
 
 .foto-nota {
-  height: 30vw;
+  height: 50vw;
   width: 60vw;
   object-fit: cover;
 }
