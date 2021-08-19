@@ -612,7 +612,7 @@ header .cont-social {
   transition: 0.5s all;
 }
 .blog-item:hover {
-  box-shadow: 15px -15px 20px rgba(195, 152, 57, 0.5);
+  box-shadow: 7px -7px 10px rgba(195, 152, 57, 0.5);
 }
 
 .blog-pag-img {
@@ -1291,12 +1291,12 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     padding: 1rem 0.5rem;
   }
   .frases-pag-container .frases-pag-img {
-    width: 85%;
+    width: 20%;
     margin: 1rem 0rem;
     transition: 0.5s all;
   }
   .frases-pag-container .frases-pag-img:hover {
-    transform: scale(1.04);
+    transform: scale(2);
     box-shadow: 7px -7px 15px rgba(195, 152, 57, 0.5);
   }
 }
