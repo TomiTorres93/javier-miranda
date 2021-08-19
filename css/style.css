@@ -1,6 +1,6 @@
 /* LISTAS */
 /* Extends */
-.blog-pag-container, .prensa-pag-container, header, nav ul, body .blog-nota-container2, body .blog-nota-container, body .videos-container, body .prensa-container, body .prensa-video-container, body .nota1-container {
+.frases-pag-container, .blog-pag-container, .prensa-pag-container, header, nav ul, body .blog-nota-container2, body .blog-nota-container, body .videos-container, body .prensa-container, body .prensa-video-container, body .nota1-container {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -371,7 +371,7 @@ body .blog-boton-vermas:hover {
 }
 
 /* Extends */
-.blog-pag-container, .prensa-pag-container, header, nav ul, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2 {
+.frases-pag-container, .blog-pag-container, .prensa-pag-container, header, nav ul, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -410,7 +410,7 @@ nav ul {
 }
 
 /* Extends */
-.blog-pag-container, .prensa-pag-container, header, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul {
+.frases-pag-container, .blog-pag-container, .prensa-pag-container, header, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -436,7 +436,7 @@ nav ul {
 }
 
 /* Extends */
-.blog-pag-container, .prensa-pag-container, header, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul {
+.frases-pag-container, .blog-pag-container, .prensa-pag-container, header, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -476,7 +476,7 @@ header .cont-social {
 
 /* LISTAS */
 /* Extends */
-.blog-pag-container, .prensa-pag-container, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header {
+.frases-pag-container, .blog-pag-container, .prensa-pag-container, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -504,7 +504,7 @@ header .cont-social {
 
 /* LISTAS */
 /* Extends */
-.blog-pag-container, .prensa-pag-container, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header {
+.frases-pag-container, .blog-pag-container, .prensa-pag-container, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -585,7 +585,7 @@ header .cont-social {
 
 /* LISTAS */
 /* Extends */
-.blog-pag-container, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container {
+.frases-pag-container, .blog-pag-container, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -663,7 +663,7 @@ header .cont-social {
 
 /* LISTAS */
 /* Extends */
-body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container, .blog-pag-container {
+.frases-pag-container, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container, .blog-pag-container {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -723,8 +723,37 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   color: #c39839;
 }
 
+/* LISTAS */
 /* Extends */
-body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container, .blog-pag-container {
+.frases-pag-container, body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container, .blog-pag-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.prensa-pag-item, .blog-item, .blog-notas-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.frases-pag-container {
+  padding: 1rem 5rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.frases-pag-container .frases-pag-img {
+  width: 12rem;
+  margin: 1rem 0rem;
+  transition: 0.5s all;
+}
+.frases-pag-container .frases-pag-img:hover {
+  transform: scale(1.04);
+  box-shadow: 7px -7px 15px rgba(195, 152, 57, 0.5);
+}
+
+/* Extends */
+body .nota1-container, body .prensa-video-container, body .prensa-container, body .videos-container, body .blog-nota-container, body .blog-nota-container2, nav ul, header, .prensa-pag-container, .blog-pag-container, .frases-pag-container {
   display: flex;
   align-items: center;
   flex-direction: row;

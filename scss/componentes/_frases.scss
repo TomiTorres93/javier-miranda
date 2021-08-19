@@ -1,0 +1,33 @@
+
+@import '../funciones/list';
+@import '../funciones/extends';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+
+.frases-pag-container{
+
+@extend %flexbox-row;
+
+ padding: 1rem 5rem;
+ flex-wrap: wrap;
+ justify-content: space-around;
+
+
+ .frases-pag-img {
+     width: 12rem;
+     margin: 1rem 0rem;
+     transition: 0.5s all;
+     
+        &:hover {
+            transform: scale(1.04);
+            box-shadow: 7px -7px 15px rgb(195, 152, 57, 50%);
+        }     
+
+
+ }
+
+
+
+}
