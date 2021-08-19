@@ -1287,6 +1287,7 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   }
 
   .frases-pag-container {
+    text-align: center;
     padding: 1rem 0.5rem;
   }
   .frases-pag-container .frases-pag-img {
