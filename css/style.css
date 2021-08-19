@@ -1285,6 +1285,19 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     margin-top: 1vw;
     padding: 0 10vw;
   }
+
+  .frases-pag-container {
+    padding: 1rem 0.5rem;
+  }
+  .frases-pag-container .frases-pag-img {
+    width: 85%;
+    margin: 1rem 0rem;
+    transition: 0.5s all;
+  }
+  .frases-pag-container .frases-pag-img:hover {
+    transform: scale(1.04);
+    box-shadow: 7px -7px 15px rgba(195, 152, 57, 0.5);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

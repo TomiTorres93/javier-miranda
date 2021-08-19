@@ -665,4 +665,27 @@ nav ul {
 
 
 }
+
+.frases-pag-container{
+
+    
+     padding: 1rem 0.5rem;
+
+    
+     .frases-pag-img {
+         width: 85%;
+         margin: 1rem 0rem;
+         transition: 0.5s all;
+         
+            &:hover {
+                transform: scale(1.04);
+                box-shadow: 7px -7px 15px rgb(195, 152, 57, 50%);
+            }     
+    
+    
+     }
+    
+    
+    
+    }
 }
