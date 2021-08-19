@@ -738,6 +738,7 @@ header .cont-social {
 }
 
 .frases-pag-container {
+  overflow-x: hidden;
   padding: 1rem 5rem;
   flex-wrap: wrap;
   justify-content: space-around;

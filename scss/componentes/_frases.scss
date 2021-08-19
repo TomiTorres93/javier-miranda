@@ -7,7 +7,7 @@
 
 
 .frases-pag-container{
-
+    overflow-x: hidden;
 @extend %flexbox-row;
 
  padding: 1rem 5rem;
