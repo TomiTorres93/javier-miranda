@@ -741,7 +741,11 @@ header .cont-social {
   overflow-x: hidden;
   padding: 1rem 5rem;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
+}
+.frases-pag-container .space {
+  justify-content: center;
 }
 .frases-pag-container .frases-pag-img {
   width: 12rem;

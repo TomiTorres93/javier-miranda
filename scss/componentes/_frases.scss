@@ -12,8 +12,12 @@
 
  padding: 1rem 5rem;
  flex-wrap: wrap;
- justify-content: space-around;
+ justify-content: center;
+ text-align: center;
 
+ .space {
+    justify-content: center;
+ }
 
  .frases-pag-img {
      width: 12rem;
