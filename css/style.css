@@ -1122,14 +1122,29 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     position: absolute;
     left: 25vw;
     height: 100vw;
-    margin-top: 30vw;
+    margin-top: 25vw;
   }
   body .scroll-bar2 {
     z-index: 100;
     position: absolute;
     height: 100vw;
-    margin-top: 190vw;
+    margin-top: 185vw;
     left: 75vw;
+  }
+  body .blog-boton-container2 {
+    width: 95%;
+    height: 5vw;
+    right: 2vw;
+  }
+  body .blog-boton2 {
+    font-size: 3vw;
+  }
+  body .blog-boton-container3 {
+    width: 70%;
+    height: 5vw;
+  }
+  body .blog-boton3 {
+    font-size: 3vw;
   }
   body .videos-container {
     height: 150vw;

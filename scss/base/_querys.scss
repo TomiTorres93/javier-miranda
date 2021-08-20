@@ -339,7 +339,7 @@ nav ul {
     position: absolute;
     left: 25vw;
     height: 100vw;
-    margin-top: 30vw;
+    margin-top: 25vw;
  
 }
 
@@ -347,8 +347,27 @@ nav ul {
     z-index: 100;
     position: absolute;
     height: 100vw;
-    margin-top: 190vw;
+    margin-top: 185vw;
     left: 75vw;
+}
+
+.blog-boton-container2 {
+width: 95%;
+height: 5vw;
+right: 2vw;
+}
+
+.blog-boton2 {
+font-size: 3vw;
+}
+
+.blog-boton-container3 {
+    width: 70%;
+    height: 5vw;
+}
+
+.blog-boton3 {
+    font-size: 3vw;
 }
 
 //VIDEOS
