@@ -167,9 +167,9 @@ body .nota1-container .nota1-boton {
   overflow: hidden;
   background-color: white;
   width: 8vw;
-  height: 3vw;
+  height: 2.5vw;
   font-family: "Cinzel", serif;
-  font-size: 1.7vw;
+  font-size: 1.2vw;
   margin: 0 auto;
   font-weight: 800;
   position: relative;
@@ -177,13 +177,15 @@ body .nota1-container .nota1-boton {
 }
 body .nota1-container .nota1-boton .nota1-botontext {
   text-align: center;
-  padding-top: 1vw;
   text-decoration: none;
   color: black;
   transition: all 0.4s;
 }
 body .nota1-container .nota1-boton .nota1-botontext:hover {
   color: #c39839;
+}
+body .nota1-container .nota1-boton .b12 {
+  padding-top: 0.3rem;
 }
 body .prensa-video-container {
   margin-top: 8vw;
@@ -205,6 +207,7 @@ body .prensa-video-titulo {
   position: absolute;
   left: 0;
   right: 89.5vw;
+  margin-bottom: 4vw;
   transform: rotate(-180deg);
 }
 body .prensa-video-titulo2 {
@@ -216,6 +219,7 @@ body .prensa-video-titulo2 {
   writing-mode: vertical-lr;
   position: absolute;
   left: 94vw;
+  margin-bottom: 4vw;
   transform: rotate(-180deg);
   z-index: 100;
 }
@@ -253,6 +257,22 @@ body .prensa-boton-nota {
   font-weight: 600;
   color: white;
 }
+body .enlace-b {
+  text-decoration: none;
+  color: #c39839;
+  transition: all 0.4s;
+}
+body .enlace-b:hover {
+  color: white;
+}
+body .enlace-c {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s;
+}
+body .enlace-c:hover {
+  color: black;
+}
 body .scroll-bar {
   z-index: 100;
   position: absolute;
@@ -284,6 +304,7 @@ body .blog-titulo {
   font-size: 10vw;
   font-weight: 600;
   letter-spacing: 2.5vw;
+  margin-bottom: 5vw;
   text-align: center;
 }
 body .blog-entradas {
@@ -332,12 +353,32 @@ body .blog-nota-texto {
 body .blog-boton-container {
   text-align: center;
   background-color: #c39839;
-  width: 10vw;
+  width: 13vw;
   height: 2.5vw;
   margin: 0 auto;
   position: relative;
   top: 2vw;
   left: 8vw;
+  overflow: hidden;
+}
+body .blog-boton-container2 {
+  text-align: center;
+  background-color: black;
+  width: 10vw;
+  height: 2.5vw;
+  margin: 0 auto;
+  position: relative;
+  top: 2vw;
+  overflow: hidden;
+}
+body .blog-boton-container3 {
+  text-align: center;
+  background-color: #c39839;
+  width: 10vw;
+  height: 2.5vw;
+  margin: 0 auto;
+  position: relative;
+  top: 1vw;
   overflow: hidden;
 }
 body .blog-boton {
@@ -348,6 +389,38 @@ body .blog-boton {
   font-weight: 600;
   color: white;
   overflow: hidden;
+  transition: all 0.4s;
+}
+body .blog-boton:hover {
+  color: black;
+}
+body .blog-boton2 {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 1.3vw;
+  padding-top: 0.3vw;
+  font-weight: 600;
+  color: white;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+body .blog-boton2:hover {
+  color: #c39839;
+}
+body .blog-boton3 {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 1.3vw;
+  padding-top: 0.3vw;
+  font-weight: 600;
+  color: white;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+body .blog-boton3:hover {
+  color: black;
 }
 body .blog-boton-vermas-container {
   text-align: center;
@@ -495,7 +568,7 @@ header .cont-social {
 
 .video-principal {
   width: 80%;
-  margin: 5vw auto;
+  margin: 2vw auto;
 }
 
 .video-secundario {
@@ -518,7 +591,7 @@ header .cont-social {
 
 .prensa-pag-container {
   justify-content: space-evenly;
-  padding: 1vw 10vw;
+  padding: 0vw 10vw;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -599,7 +672,7 @@ header .cont-social {
 
 .blog-pag-container {
   justify-content: space-evenly;
-  padding: 1vw 10vw;
+  padding: 0vw 10vw;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -646,7 +719,7 @@ header .cont-social {
   font-weight: 800;
   color: #c39839;
   background-color: black;
-  width: 10vw;
+  width: 12vw;
   height: 3vw;
   margin-bottom: 1vw;
 }
@@ -929,7 +1002,7 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
     font-family: "Roboto", sans-serif;
     font-size: 4vw;
     padding-left: 10vw;
-    padding-right: 1vw;
+    padding-right: 1.2vw;
     z-index: 50;
     color: white;
     font-weight: 300;
@@ -959,6 +1032,9 @@ body .nota1-container, body .prensa-video-container, body .prensa-container, bod
   body .nota1-container .nota1-boton .nota1-botontext {
     text-align: center;
     padding-top: 0.3vw;
+  }
+  body .nota1-container .nota1-boton .b12 {
+    padding-top: 0;
   }
   body .prensa-video-container {
     display: flex;

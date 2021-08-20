@@ -9,7 +9,7 @@
 .blog-pag-container {
     @extend %flexbox-row;
     justify-content: space-evenly ;
-    padding: 1vw 10vw;
+    padding: 0vw 10vw;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -59,7 +59,7 @@
     font-weight: 800;
     color: nth($color, 1);
     background-color: black;
-    width: 10vw;
+    width: 12vw;
     height: 3vw;
     margin-bottom: 1vw;
  

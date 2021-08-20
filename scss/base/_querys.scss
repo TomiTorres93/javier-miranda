@@ -193,7 +193,7 @@ nav ul {
         font-family: 'Roboto', sans-serif;
         font-size: 4vw;
         padding-left: 10vw;
-        padding-right: 1vw;
+        padding-right: 1.2vw;
         z-index: 50;
         color: white;
         font-weight: 300;
@@ -226,6 +226,10 @@ nav ul {
         .nota1-botontext {
             text-align: center;
             padding-top: 0.3vw;
+        }
+
+        .b12 {
+            padding-top: 0;
         }
     }
             
