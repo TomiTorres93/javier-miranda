@@ -526,7 +526,7 @@ header .cont-social {
 .h1-prensa-pag {
   text-align: center;
   font-family: "Cinzel", serif;
-  font-size: 10vw;
+  font-size: 7vw;
   color: #c39839;
   font-weight: 800;
 }
@@ -748,7 +748,7 @@ header .cont-social {
   justify-content: center;
 }
 .frases-pag-container .frases-pag-img {
-  width: 12rem;
+  width: 11rem;
   margin: 0.5rem 0.2rem;
   transition: 0.5s all;
 }
